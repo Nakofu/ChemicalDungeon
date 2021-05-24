@@ -36,15 +36,4 @@ public class PlayerControl : MonoBehaviour
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
         rb.rotation = angle;
     }
-
-<<<<<<< HEAD
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-=======
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        throw new NotImplementedException();
->>>>>>> remotes/origin/Danil
-    }
 }
