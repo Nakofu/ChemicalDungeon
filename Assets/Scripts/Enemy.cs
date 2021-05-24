@@ -15,7 +15,6 @@ public class Enemy : MonoBehaviour
         text = transform.GetChild(0).gameObject;
         substance = GetComponent<Substance>();
         text.GetComponent<TextMesh>().text = substance.Formula;
-        //spr.color = substance.Color;
         spr.color = substance.Color;
     }
 

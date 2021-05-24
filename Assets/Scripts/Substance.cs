@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class Substance : MonoBehaviour
 {
-    //[SerializeField] private string aggrState;
-    //[SerializeField] private Color color;
-    //[SerializeField] private string formula;
     public string AggrState;
     public Color Color;
     public string Formula;

@@ -23,7 +23,7 @@ public class PlayerControl : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-
+        
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
     }
 
@@ -34,5 +34,10 @@ public class PlayerControl : MonoBehaviour
         Vector2 lookDir = mousePos - rb.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
         rb.rotation = angle;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
     }
 }

@@ -280,6 +280,7 @@ GameObject:
   - component: {fileID: 957420781}
   - component: {fileID: 957420780}
   - component: {fileID: 957420779}
+  - component: {fileID: 957420784}
   m_Layer: 0
   m_Name: enemy1
   m_TagString: Untagged
@@ -299,9 +300,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bab8378d04117840abdb4dcc2c8de4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aggrState: 
-  color: {r: 0, g: 0, b: 0, a: 0}
-  formula: 
+  AggrState: 
+  Color: {r: 0.9622642, g: 0.38581347, b: 0.38581347, a: 1}
+  Formula: HCl
 --- !u!50 &957420780
 Rigidbody2D:
   serializedVersion: 4
@@ -408,13 +409,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957420778}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.82, y: 1.72, z: 0}
+  m_LocalPosition: {x: -2.144, y: 1.169, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1098160734}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &957420784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957420778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6e58ef63c68404bba92e2c5f7d7f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spr: {fileID: 0}
+  text: {fileID: 0}
+  substance: {fileID: 0}
 --- !u!1 &1098160733
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098160733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.568, y: -0.217, z: 0}
+  m_LocalPosition: {x: -0.159, y: -0.538, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 957420783}
@@ -455,11 +471,11 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098160733}
-  m_Text: N3
+  m_Text: 1
   m_OffsetZ: 0
   m_CharacterSize: 0.1
   m_LineSpacing: 1
-  m_Anchor: 0
+  m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
   m_FontSize: 64
@@ -525,12 +541,12 @@ PrefabInstance:
     - target: {fileID: 7794472798793146659, guid: cfd1d9857f742d7499b0eff2f51cf9cf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.42
+      value: -6.88
       objectReference: {fileID: 0}
     - target: {fileID: 7794472798793146659, guid: cfd1d9857f742d7499b0eff2f51cf9cf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.3
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: 7794472798793146659, guid: cfd1d9857f742d7499b0eff2f51cf9cf,
         type: 3}
