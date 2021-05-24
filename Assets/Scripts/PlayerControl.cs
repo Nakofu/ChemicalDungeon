@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -36,8 +37,14 @@ public class PlayerControl : MonoBehaviour
         rb.rotation = angle;
     }
 
+<<<<<<< HEAD
     private void OnCollisionEnter2D(Collision2D collision)
     {
         
+=======
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        throw new NotImplementedException();
+>>>>>>> remotes/origin/Danil
     }
 }
