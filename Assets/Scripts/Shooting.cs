@@ -10,15 +10,15 @@ public class Shooting : MonoBehaviour
     [SerializeField] private float bulletForce;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         bulletForce = 10f;
-        firePoint = GameObject.Find("firePoint").GetComponent<Transform>();
+        firePoint = transform.GetChild(0).GetComponent<Transform>();//GameObject.Find("firePoint").GetComponent<Transform>();
         bulletPrefab = Resources.Load<GameObject>("bullet");//GameObject.Find("bullet");
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
@@ -31,7 +31,6 @@ public class Shooting : MonoBehaviour
     {
         var bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         var rbBul = bullet.GetComponent<Rigidbody2D>();
-        //var vec = new Vector2()
         rbBul.AddForce(firePoint.right * bulletForce, ForceMode2D.Impulse);
     }
 }
