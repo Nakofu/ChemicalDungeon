@@ -132,8 +132,8 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!114 &703718380708040706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,8 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AggrState: 
-  Color: {r: 0.9622642, g: 0.38581347, b: 0.38581347, a: 1}
-  Formula: HCl
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Formula: 
 --- !u!114 &703718380708040729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +164,10 @@ MonoBehaviour:
   spr: {fileID: 0}
   text: {fileID: 0}
   substance: {fileID: 0}
+  playerPos: {fileID: 0}
+  tr: {fileID: 0}
+  rb: {fileID: 0}
+  moveSpeed: 1
 --- !u!1 &703718382459002548
 GameObject:
   m_ObjectHideFlags: 0
