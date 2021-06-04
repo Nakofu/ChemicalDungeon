@@ -59,6 +59,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 6833166252256243753, guid: cfd1d9857f742d7499b0eff2f51cf9cf,
+        type: 3}
+      propertyPath: bulletForce
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7794472798793146659, guid: cfd1d9857f742d7499b0eff2f51cf9cf,
         type: 3}
       propertyPath: m_RootOrder
@@ -131,8 +136,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7794472798793146671, guid: cfd1d9857f742d7499b0eff2f51cf9cf,
         type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7794472798793146671, guid: cfd1d9857f742d7499b0eff2f51cf9cf,
+        type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Player with colider
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfd1d9857f742d7499b0eff2f51cf9cf, type: 3}
