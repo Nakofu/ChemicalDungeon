@@ -26,6 +26,11 @@ public class PlayerControl : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            transform.GetChild(0).gameObject.GetComponent<Gun>().Shoot();
+        }
     }
 
     private void FixedUpdate()
