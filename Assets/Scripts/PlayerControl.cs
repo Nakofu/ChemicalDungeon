@@ -27,7 +27,7 @@ public class PlayerControl : MonoBehaviour
         
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1")&&!PauseMenu.GameIsPaused)
         {
             transform.GetChild(0).gameObject.GetComponent<Gun>().Shoot();
         }
