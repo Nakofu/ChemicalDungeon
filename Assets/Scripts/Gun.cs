@@ -6,12 +6,12 @@ public class Gun : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private float bulletForce;
-    public Substance substance;
+    public Substance Substance;
 
     public void Shoot()
     {
         var bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
-        bullet.GetComponent<Bullet>().Substance = new Substance("Gas", Color.white, "H2");
+        bullet.GetComponent<Bullet>().Substance = Substance;
         bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * bulletForce, ForceMode2D.Impulse);
     }
 

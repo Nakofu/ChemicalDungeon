@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject text;
     [SerializeField] private Transform playerPos;
     [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private float moveSpeed;
+    public float MoveSpeed;
 
     private Vector2 movement;
     public Substance Substance;
@@ -42,7 +42,7 @@ public class Enemy : MonoBehaviour
         if (playerPos.position.y < transform.position.y)
             movement.y--;
 
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.deltaTime);
+        rb.MovePosition(rb.position + movement * MoveSpeed * Time.deltaTime);
         movement = new Vector2(0, 0);
     }
 }

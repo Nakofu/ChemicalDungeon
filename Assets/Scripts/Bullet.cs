@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    [SerializeField] private SpriteRenderer spr;
     [SerializeField] private ReactionHandler reactionHandler;
     public Substance Substance;
 
@@ -24,7 +25,7 @@ public class Bullet : MonoBehaviour
     private void MakeReacition(GameObject second)
     {
         var rnd = new System.Random();
-        var secondTr = second.GetComponent<Transform>();
+        var secondTr = second.transform;
         var firstFormula = Substance.Formula;
         var secondFormula = second.GetComponent<Enemy>().Substance.Formula;
         var products = reactionHandler.reactions[firstFormula.GetHashCode() + secondFormula.GetHashCode()];
@@ -33,13 +34,15 @@ public class Bullet : MonoBehaviour
         {
             var newPos = secondTr.position + new Vector3(rnd.Next(-1, 1), rnd.Next(-1, 1));
             var productPrefab = Instantiate(Resources.Load<GameObject>("Product"), newPos, secondTr.rotation);
-            var prSubs = productPrefab.GetComponent<Product>().Substance = product;
+            productPrefab.GetComponent<Product>().Substance = product;
         }
     }
 
     void Start()
     {
         reactionHandler = GameObject.Find("ReactionHandler").GetComponent<ReactionHandler>();
+        spr = GetComponent<SpriteRenderer>();
+        spr.color = Substance.Color;
     }
 
     void Update()

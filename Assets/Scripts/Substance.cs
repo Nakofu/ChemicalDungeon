@@ -9,10 +9,10 @@ public class Substance
     public Color Color;
     public string Formula;
 
-    public Substance(string aggrState, Color color, string formula)
+    public Substance(string formula, Color color, string aggrState)
     {
-        AggrState = aggrState;
-        Color = color;
         Formula = formula;
+        Color = color;
+        AggrState = aggrState;
     }
 }
