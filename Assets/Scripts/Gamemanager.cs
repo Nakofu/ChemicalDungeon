@@ -2,18 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class Gamemanager : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+
+
+    private int level = 1;
+    
+    // Start is called before the first frame update
+    void A()
     {
-        Destroy(gameObject);
+        InitGame();
     }
 
-    // Start is called before the first frame update
-    void Start()
+    void InitGame()
     {
         
     }
+
 
     // Update is called once per frame
     void Update()

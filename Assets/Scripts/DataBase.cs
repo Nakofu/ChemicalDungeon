@@ -1,14 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Bullet : MonoBehaviour
+public class DataBase : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Destroy(gameObject);
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -20,4 +16,16 @@ public class Bullet : MonoBehaviour
     {
         
     }
+
+    public List<Item> items = new List<Item>();
+
+
+}
+
+[System.Serializable]
+public class Item
+{
+    public int id;
+    public string name;
+    public Sprite image;
 }
