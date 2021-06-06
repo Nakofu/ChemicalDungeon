@@ -10,17 +10,25 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/level.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControl.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BoardManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Gamemanager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DataBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LevelMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/LevelMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SettingsMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControl.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1syhBfnncPuwyw0Sf8ks1M8mepI" />
