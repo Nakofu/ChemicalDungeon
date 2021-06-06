@@ -9,8 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4964148129468758049}
+  - component: {fileID: 1002344930}
   m_Layer: 0
-  m_Name: firePoint
+  m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,12 +25,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7097936664546831797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.99, y: -0.36, z: 0}
+  m_LocalPosition: {x: 1, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7794472798793146659}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1002344930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7097936664546831797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 633b05607a94d0f4a9acd97e56c1d835, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 0}
+  bulletForce: 0
+  substance:
+    AggrState: 
+    Color: {r: 0, g: 0, b: 0, a: 0}
+    Formula: 
 --- !u!1 &7794472798793146671
 GameObject:
   m_ObjectHideFlags: 0
@@ -42,7 +61,6 @@ GameObject:
   - component: {fileID: 7794472798793146668}
   - component: {fileID: 7794472798793146669}
   - component: {fileID: 7794472798793146670}
-  - component: {fileID: 6833166252256243753}
   - component: {fileID: -3613033229996119776}
   - component: {fileID: 5829492986691098178}
   m_Layer: 0
@@ -154,21 +172,6 @@ MonoBehaviour:
   moveSpeed: 1
   rb: {fileID: 0}
   cam: {fileID: 0}
---- !u!114 &6833166252256243753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7794472798793146671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59e43cce6b0c7c7489967c793d421997, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoint: {fileID: 0}
-  bulletPrefab: {fileID: 0}
-  bulletForce: 0
 --- !u!61 &-3613033229996119776
 BoxCollider2D:
   m_ObjectHideFlags: 0

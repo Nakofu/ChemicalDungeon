@@ -2,21 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Substance : MonoBehaviour
+[System.Serializable]
+public class Substance
 {
     public string AggrState;
     public Color Color;
     public string Formula;
 
-    // Start is called before the first frame update
-    void Start()
+    public Substance(string aggrState, Color color, string formula)
     {
-        
-    }
-    
-    // Update is called once per frame
-    void Update()
-    {
-        
+        AggrState = aggrState;
+        Color = color;
+        Formula = formula;
     }
 }
