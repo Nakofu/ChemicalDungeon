@@ -12,7 +12,7 @@ public class Gun : MonoBehaviour
     {
         var bullet = Instantiate(bulletPrefab, transform.position, transform.rotation);
         bullet.GetComponent<Bullet>().Substance = Substance;
-        bullet.GetComponent<Rigidbody2D>().AddForce(transform.right * bulletForce, ForceMode2D.Impulse);
+        bullet.GetComponent<Rigidbody2D>().AddForce(-transform.right * bulletForce, ForceMode2D.Impulse);
     }
 
     private void Start()

@@ -8,6 +8,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Camera cam;
+    [SerializeField] private Animator animator;
 
     private Vector2 movement;
     private Vector2 mousePos;
@@ -17,6 +18,7 @@ public class PlayerControl : MonoBehaviour
         moveSpeed = 10f;
         rb = GetComponent<Rigidbody2D>();
         cam = FindObjectOfType<Camera>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,12 +26,21 @@ public class PlayerControl : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-        if (Input.GetButtonDown("Fire1")&&!PauseMenu.GameIsPaused)
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+
+        //mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+
+        if (Input.GetButtonDown("Fire1") && !PauseMenu.GameIsPaused)
         {
+            animator.SetBool("IsShooting", true);
             transform.GetChild(0).gameObject.GetComponent<Gun>().Shoot();
+        }
+        if (Input.GetButtonUp("Fire1") && !PauseMenu.GameIsPaused)
+        {
+            animator.SetBool("IsShooting", false);
         }
     }
 
@@ -37,8 +48,8 @@ public class PlayerControl : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.deltaTime);
 
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
+        //Vector2 lookDir = mousePos - rb.position;
+        //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        //rb.rotation = angle;
     }
 }
