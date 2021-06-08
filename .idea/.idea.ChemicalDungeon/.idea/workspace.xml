@@ -26,9 +26,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Inventory.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SettingsMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControl.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1syhBfnncPuwyw0Sf8ks1M8mepI" />
