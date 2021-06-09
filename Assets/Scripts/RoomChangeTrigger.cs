@@ -27,7 +27,7 @@ public class RoomChangeTrigger : MonoBehaviour
             alreadyMoved = true;
 
             foreach (var monster in monsters)
-                monster.GetComponent<Enemy>().MoveSpeed = 1;
+                monster.GetComponent<Enemy>().MoveSpeed = 2;
         }
     }
 }

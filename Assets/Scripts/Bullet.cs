@@ -7,6 +7,9 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer spr;
+    [SerializeField] private Sprite liquidSpr;
+    [SerializeField] private Sprite solidSpr;
+    [SerializeField] private Sprite gasSpr;
     [SerializeField] private ReactionHandler reactionHandler;
     public Substance Substance;
 
@@ -40,9 +43,22 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
-        reactionHandler = GameObject.Find("ReactionHandler").GetComponent<ReactionHandler>();
         spr = GetComponent<SpriteRenderer>();
         spr.color = Substance.Color;
+        switch (Substance.AggrState)
+        {
+            case "Liquid":
+                spr.sprite = liquidSpr;
+                break;
+            case "Solid":
+                spr.sprite = solidSpr;
+                break;
+            case "Gas":
+                spr.sprite = gasSpr;
+                break;
+        }
+
+        reactionHandler = GameObject.Find("ReactionHandler").GetComponent<ReactionHandler>();
     }
 
     void Update()
