@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 703718380708040708}
   - component: {fileID: 703718380708040709}
   - component: {fileID: 703718380708040729}
+  - component: {fileID: 6882111632515453967}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 703718380708040707}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.144, y: 1.169, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 703718382459002551}
   m_Father: {fileID: 0}
@@ -75,7 +76,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3359a34d6143a25419957eb10f3c8753, type: 3}
+  m_Sprite: {fileID: 3229708652140166120, guid: 9e438918fa5b4764e9183373f640b7e6,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,7 +95,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703718380708040707}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -103,7 +105,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.32, y: 1.32}
+    oldSize: {x: 1.28, y: 1.28}
     newSize: {x: 1.32, y: 1.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -146,9 +148,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spr: {fileID: 0}
-  liquidSpr: {fileID: 21300000, guid: 3359a34d6143a25419957eb10f3c8753, type: 3}
-  solidSpr: {fileID: 21300000, guid: 3359a34d6143a25419957eb10f3c8753, type: 3}
-  gasSpr: {fileID: 21300000, guid: 3359a34d6143a25419957eb10f3c8753, type: 3}
+  liquidSpr: {fileID: 2731795287329381114, guid: 9e438918fa5b4764e9183373f640b7e6,
+    type: 3}
+  solidSpr: {fileID: 876784968147787122, guid: 9e438918fa5b4764e9183373f640b7e6, type: 3}
+  gasSpr: {fileID: -3351989875833439213, guid: 9e438918fa5b4764e9183373f640b7e6, type: 3}
   text: {fileID: 0}
   playerPos: {fileID: 0}
   rb: {fileID: 0}
@@ -157,6 +160,46 @@ MonoBehaviour:
     AggrState: 
     Color: {r: 1, g: 1, b: 1, a: 1}
     Formula: 
+--- !u!60 &6882111632515453967
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703718380708040707}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1.32, y: 1.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.51, y: 0.19}
+      - {x: 0.42, y: 0.34}
+      - {x: 0.24, y: 0.5}
+      - {x: -0.19, y: 0.5}
+      - {x: -0.26999998, y: 0.47}
+      - {x: -0.44, y: 0.29}
+      - {x: -0.52, y: 0.12}
+      - {x: -0.52, y: -0.07}
+      - {x: -0.42999998, y: -0.26}
+      - {x: -0.37, y: -0.31}
+      - {x: -0.26, y: -0.32999998}
+      - {x: 0.28, y: -0.32999998}
+      - {x: 0.42, y: -0.31}
+      - {x: 0.53, y: -0.12}
+      - {x: 0.53, y: 0.089999996}
 --- !u!1 &703718382459002548
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703718382459002548}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.159, y: -0.81, z: 0}
+  m_LocalPosition: {x: -0.028, y: -0.453, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 703718380708040710}
@@ -245,7 +288,7 @@ TextMesh:
   m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 64
+  m_FontSize: 32
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 0}
