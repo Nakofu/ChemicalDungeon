@@ -145,6 +145,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spr: {fileID: 0}
+  liquidSpr: {fileID: 21300000, guid: 58516e90013fe0946b54185adedb054a, type: 3}
+  solidSpr: {fileID: 21300000, guid: 58516e90013fe0946b54185adedb054a, type: 3}
+  gasSpr: {fileID: 21300000, guid: 58516e90013fe0946b54185adedb054a, type: 3}
   reactionHandler: {fileID: 0}
   Substance:
     AggrState: 

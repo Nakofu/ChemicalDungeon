@@ -23,7 +23,7 @@ public class Gun : MonoBehaviour
     }
 
 
-    void Update()
+    void FixedUpdate()
     {
         var playerMov = transform.GetComponentInParent<PlayerControl>().movement;
         var playerPos = transform.parent.transform.position;

@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 58516e90013fe0946b54185adedb054a, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_Size: {x: 1.6875, y: 0.875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &6577314886992875742
@@ -124,8 +124,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spr: {fileID: 0}
+  liquidSpr: {fileID: 21300000, guid: 58516e90013fe0946b54185adedb054a, type: 3}
+  solidSpr: {fileID: 21300000, guid: 5cf5226fc9feb674ea10658a00225004, type: 3}
+  gasSpr: {fileID: 21300000, guid: 58516e90013fe0946b54185adedb054a, type: 3}
   text: {fileID: 0}
-  substance:
+  Substance:
     AggrState: 
     Color: {r: 0, g: 0, b: 0, a: 0}
     Formula: 

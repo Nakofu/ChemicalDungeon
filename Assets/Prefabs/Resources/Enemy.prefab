@@ -146,10 +146,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spr: {fileID: 0}
+  liquidSpr: {fileID: 21300000, guid: 3359a34d6143a25419957eb10f3c8753, type: 3}
+  solidSpr: {fileID: 21300000, guid: 3359a34d6143a25419957eb10f3c8753, type: 3}
+  gasSpr: {fileID: 21300000, guid: 3359a34d6143a25419957eb10f3c8753, type: 3}
   text: {fileID: 0}
   playerPos: {fileID: 0}
   rb: {fileID: 0}
-  moveSpeed: 1
+  MoveSpeed: 0
   Substance:
     AggrState: 
     Color: {r: 1, g: 1, b: 1, a: 1}
