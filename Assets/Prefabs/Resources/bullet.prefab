@@ -144,8 +144,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b127c184ce92eed45ae128b64fa169fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spr: {fileID: 0}
   reactionHandler: {fileID: 0}
-  substance:
+  Substance:
     AggrState: 
     Color: {r: 0, g: 0, b: 0, a: 0}
     Formula: 
