@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1_H2.unity
     guid: 8298094e9d156554e8a8bc264a50582a
+  - enabled: 1
+    path: Assets/Scenes/Almanac.unity
+    guid: 8f228e6500022344c8b27546854c0128
   m_configObjects: {}
