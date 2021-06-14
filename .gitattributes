@@ -1,3 +1,7 @@
 * linguist-vendored
 *.html linguist-vendored=false
-*.* linguist-language=Java
+*.java linguist-detectable=true 
+*.js linguist-detectable=false 
+*.html linguist-detectable=false 
+*.xml linguist-detectable=false
+*.* linguist-language=C#
