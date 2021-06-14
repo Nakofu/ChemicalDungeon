@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: ca66a5d76bdbd4643b32277e11907318
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7993292297751041170
+    second: player2nogun_0
+  - first:
+      213: -6396239341762994725
+    second: player2nogun_1
+  - first:
+      213: 8414646399682682872
+    second: player2nogun_2
+  - first:
+      213: -4859536175004677686
+    second: player2nogun_3
+  - first:
+      213: -5645316191615362111
+    second: player2nogun_4
+  - first:
+      213: 1187890506813692719
+    second: player2nogun_5
+  - first:
+      213: -4854944648954470502
+    second: player2nogun_6
+  - first:
+      213: 1086901909730614815
+    second: player2nogun_7
+  - first:
+      213: 4703411333375526184
+    second: player2nogun_8
+  - first:
+      213: 8298867822928948966
+    second: player2nogun_9
+  - first:
+      213: -3600015971693323168
+    second: player2nogun_10
+  - first:
+      213: 2146918916372238820
+    second: player2nogun_11
+  - first:
+      213: 2396388127012997051
+    second: player2nogun_12
+  - first:
+      213: -7549368922294546675
+    second: player2nogun_13
+  - first:
+      213: 6694572687385286147
+    second: player2nogun_14
+  - first:
+      213: 7898461267253399907
+    second: player2nogun_15
+  - first:
+      213: 6884912546610270485
+    second: player2nogun_16
+  - first:
+      213: 626060936069478980
+    second: player2nogun_17
+  - first:
+      213: -3322915014720740809
+    second: player2nogun_18
+  - first:
+      213: -7110781943219165515
+    second: player2nogun_19
+  - first:
+      213: -3063709086101594335
+    second: player2nogun_20
+  - first:
+      213: 1587468046368448862
+    second: player2nogun_21
+  - first:
+      213: 5781137703004482881
+    second: player2nogun_22
+  - first:
+      213: -9168678468773959972
+    second: player2nogun_23
+  - first:
+      213: -2197801921768274951
+    second: player2nogun_24
+  - first:
+      213: 7315204767790106964
+    second: player2nogun_25
+  - first:
+      213: 385309058868687052
+    second: player2nogun_26
+  - first:
+      213: -142393060332493332
+    second: player2nogun_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player2nogun_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 796
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6beea6610f121190800000000000000
+      internalID: -7993292297751041170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 796
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd96d7153efb37a0800000000000000
+      internalID: -6396239341762994725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 798
+        width: 56
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff1b9b5154d6c470800000000000000
+      internalID: 8414646399682682872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 800
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac98fa388957f8cb0800000000000000
+      internalID: -4859536175004677686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 668
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb510a75dec7a1b0800000000000000
+      internalID: -5645316191615362111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 666
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b50ba4f1c3c7010800000000000000
+      internalID: 1187890506813692719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_6
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 668
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f92ea7095cf9cb0800000000000000
+      internalID: -4854944648954470502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 666
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1edf2b3783751f00800000000000000
+      internalID: 1086901909730614815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 540
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825056e10bfd54140800000000000000
+      internalID: 4703411333375526184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 540
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee699fc0508b2370800000000000000
+      internalID: 8298867822928948966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_10
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 540
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c9c752c8c2a0ec0800000000000000
+      internalID: -3600015971693323168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 540
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e11feb21636bcd10800000000000000
+      internalID: 2146918916372238820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 412
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7c29e0e4ea14120800000000000000
+      internalID: 2396388127012997051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 412
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f8244a6f04b3790800000000000000
+      internalID: -7549368922294546675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_14
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 412
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306d1aac366e7ec50800000000000000
+      internalID: 6694572687385286147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 412
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36112dabca8fc9d60800000000000000
+      internalID: 7898461267253399907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 284
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511d55abb7f1c8f50800000000000000
+      internalID: 6884912546610270485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_17
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 282
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a7b26ba1730b800800000000000000
+      internalID: 626060936069478980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 284
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73222c05662a2e1d0800000000000000
+      internalID: -3322915014720740809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 282
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6e8274f7d615d90800000000000000
+      internalID: -7110781943219165515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 156
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f17c381d48b75d0800000000000000
+      internalID: -3063709086101594335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 156
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51231407c1d70610800000000000000
+      internalID: 1587468046368448862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 156
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d23317c1aba3050800000000000000
+      internalID: 5781137703004482881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 156
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6a4f8a28f42c080800000000000000
+      internalID: -9168678468773959972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 28
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3c45eebc6df71e0800000000000000
+      internalID: -2197801921768274951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_25
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 28
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4598f5b8af3d48560800000000000000
+      internalID: 7315204767790106964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 28
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0bb9e2c84e85500800000000000000
+      internalID: 385309058868687052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player2nogun_27
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 28
+        width: 54
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5a66c144e160ef0800000000000000
+      internalID: -142393060332493332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
