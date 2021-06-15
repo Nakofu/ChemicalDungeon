@@ -11,10 +11,17 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject text;
     [SerializeField] private Transform playerPos;
     [SerializeField] private Rigidbody2D rb;
-    public float MoveSpeed;
-
     private Vector2 movement;
+    private float moveSpeed;
+
+    public float ChosenMoveSpeed;
     public Substance Substance;
+
+
+    public void SetSpeed()
+    {
+        moveSpeed = ChosenMoveSpeed;
+    }
 
     private void Start()
     {
@@ -57,7 +64,7 @@ public class Enemy : MonoBehaviour
         if (playerPos.position.y < transform.position.y)
             movement.y--;
 
-        rb.MovePosition(rb.position + movement * MoveSpeed * Time.deltaTime);
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.deltaTime);
         movement = new Vector2(0, 0);
     }
 }
