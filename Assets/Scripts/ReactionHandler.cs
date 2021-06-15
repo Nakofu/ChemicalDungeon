@@ -30,7 +30,16 @@ public class ReactionHandler : MonoBehaviour
             {
                 new Substance("NH3", Color.white, "Gas")
             },
-
+            ["H2".GetHashCode() + "CuO".GetHashCode()] = new List<Substance>
+            {
+                new Substance("Cu", new Color(0.74f, 0.47f, 0.20f, 1.0f), "Solid"),
+                new Substance("H20", Color.white, "Liquid")
+            },
+            ["H2".GetHashCode() + "PbO".GetHashCode()] = new List<Substance>
+            {
+                new Substance("Pb", new Color(0.45f, 0.89f, 0.96f, 1.0f), "Solid"),
+                new Substance("H20", Color.white, "Liquid")
+            },
         };
     }
 

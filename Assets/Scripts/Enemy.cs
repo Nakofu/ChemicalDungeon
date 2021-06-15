@@ -27,23 +27,18 @@ public class Enemy : MonoBehaviour
     {
         spr = GetComponent<SpriteRenderer>();
         spr.color = Substance.Color;
-        switch (Substance.AggrState)
+        spr.sprite = Substance.AggrState switch
         {
-            case "Liquid":
-                spr.sprite = liquidSpr;
-                break;
-            case "Solid":
-                spr.sprite = solidSpr;
-                break;
-            case "Gas":
-                spr.sprite = gasSpr;
-                break;
-        }
+            "Liquid" => liquidSpr,
+            "Solid" => solidSpr,
+            "Gas" => gasSpr,
+            _ => throw new System.ArgumentException("The chosen aggregate state doesn't have a sprite: " + Substance.AggrState)
+        };
 
         text = transform.GetChild(0).gameObject;
         text.GetComponent<TextMesh>().text = Substance.Formula;
 
-        playerPos = GameObject.Find("Player").GetComponent<Transform>();
+        playerPos = GameObject.Find("Player").transform;
         rb = GetComponent<Rigidbody2D>();
         movement = new Vector2(0, 0);
     }
@@ -51,6 +46,7 @@ public class Enemy : MonoBehaviour
     private void FixedUpdate()
     {
         Move();
+        spr.color = Substance.Color;
     }
 
     private void Move()
