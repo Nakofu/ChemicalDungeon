@@ -19,6 +19,7 @@ public class Bullet : MonoBehaviour
         {
             Destroy(collision.gameObject);
             MakeReacition(collision.gameObject);
+            FindObjectOfType<AudioManager>().PlaySound("DeathEnemy" + new System.Random().Next(1, 4));
         }
 
         if (collision.gameObject.name != "Player")

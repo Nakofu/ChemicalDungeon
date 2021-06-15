@@ -30,7 +30,10 @@ public class Product : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "Player")
+        {
+            FindObjectOfType<AudioManager>().PlaySound("PickUp" + new System.Random().Next(1, 4));
             Destroy(gameObject);
+        }
     }
 
     private void Update()
