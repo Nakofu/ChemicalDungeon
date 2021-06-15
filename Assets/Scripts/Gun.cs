@@ -5,14 +5,15 @@ using UnityEngine;
 public class Gun : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private Transform firePoint;
     [SerializeField] private float bulletForce;
     private Vector3 shootVector;
-    private Quaternion bulletRot;
+
     public Substance Substance;
 
     public void Shoot()
     {
-        var bullet = Instantiate(bulletPrefab, transform.position, bulletRot);// transform.rotation);
+        var bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.GetComponent<Bullet>().Substance = Substance;
         bullet.GetComponent<Rigidbody2D>().AddForce(shootVector * bulletForce, ForceMode2D.Impulse);
     }
@@ -20,40 +21,22 @@ public class Gun : MonoBehaviour
     private void Start()
     {
         bulletPrefab = Resources.Load<GameObject>("bullet");
+        firePoint = transform.GetChild(0).transform;
     }
 
 
     void FixedUpdate()
     {
-        var playerMov = transform.GetComponentInParent<PlayerControl>().movement;
-        var playerPos = transform.parent.transform.position;
-
-        if (playerMov.x == 1 && playerMov.y == 0)
+        var angle = transform.parent.GetComponentInParent<Player>().MouseAngle;
+        if (angle < -90 || angle > 90)
         {
-            transform.position = new Vector3(playerPos.x + 1.1f, playerPos.y - 0.1f);
-            bulletRot = Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f));
-            shootVector = transform.right;
-        }
-
-        if (playerMov.x == -1 && playerMov.y == 0)
-        {
-            transform.position = new Vector3(playerPos.x - 1.1f, playerPos.y - 0.1f);
-            bulletRot = Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f));
+            transform.parent.rotation = Quaternion.Euler(transform.parent.rotation.x, transform.parent.rotation.y, angle - 180);
             shootVector = -transform.right;
         }
-
-        if (playerMov.x == 0 && playerMov.y == 1)
+        else
         {
-            transform.position = new Vector3(playerPos.x + 0.3f, playerPos.y + 1.3f);
-            bulletRot = Quaternion.Euler(new Vector3(0.0f, 0.0f, 90.0f));
-            shootVector = transform.up;
-        }
-
-        if (playerMov.x == 0 && (playerMov.y == -1 || playerMov.y == 0))
-        {
-            transform.position = new Vector3(playerPos.x - 0.0f, playerPos.y - 0.9f);
-            bulletRot = Quaternion.Euler(new Vector3(0.0f, 0.0f, 90.0f));
-            shootVector = -transform.up;
+            transform.parent.rotation = Quaternion.Euler(transform.parent.rotation.x, transform.parent.rotation.y, angle);
+            shootVector = transform.right;
         }
     }
 }

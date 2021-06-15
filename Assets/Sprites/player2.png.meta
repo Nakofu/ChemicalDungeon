@@ -170,6 +170,342 @@ TextureImporter:
   - first:
       213: -973682093901675129
     second: player2_27
+  - first:
+      213: 6960375324579036849
+    second: player2gun_0
+  - first:
+      213: -8771082740021320170
+    second: player2gun_1
+  - first:
+      213: -8248265900949491299
+    second: player2gun_2
+  - first:
+      213: 3283417665059747368
+    second: player2gun_3
+  - first:
+      213: -7071796094305118832
+    second: player2gun_4
+  - first:
+      213: 4776305478390505875
+    second: player2gun_5
+  - first:
+      213: 640911196552108395
+    second: player2gun_6
+  - first:
+      213: -8022059277182838342
+    second: player2gun_7
+  - first:
+      213: -6817500902521655168
+    second: player2gun_8
+  - first:
+      213: 4538079948141341174
+    second: player2gun_9
+  - first:
+      213: -2900173279224472148
+    second: player2gun_10
+  - first:
+      213: 2960053839963213347
+    second: player2gun_11
+  - first:
+      213: 3009052508779086489
+    second: player2gun_12
+  - first:
+      213: -8301021292904141489
+    second: player2gun_13
+  - first:
+      213: 2133311845189559144
+    second: player2gun_14
+  - first:
+      213: -3964106476817980408
+    second: player2gun_15
+  - first:
+      213: -4180565006631275778
+    second: player2gun_16
+  - first:
+      213: -1356767238076655943
+    second: player2gun_17
+  - first:
+      213: 2166039323802793168
+    second: player2gun_18
+  - first:
+      213: 5483894212694453953
+    second: player2gun_19
+  - first:
+      213: 4113599792202946281
+    second: player2gun_20
+  - first:
+      213: 7396589877880080220
+    second: player2gun_21
+  - first:
+      213: -7683877290457270670
+    second: player2gun_22
+  - first:
+      213: -2827393435093754988
+    second: player2gun_23
+  - first:
+      213: -1266843727050417228
+    second: player2gun_24
+  - first:
+      213: 989399106573201400
+    second: player2gun_25
+  - first:
+      213: 5817354842410468290
+    second: player2gun_26
+  - first:
+      213: 561045987282967168
+    second: player2gun_27
+  - first:
+      213: -3518415230850492365
+    second: player2gun_28
+  - first:
+      213: -1474543382430179621
+    second: player2gun_29
+  - first:
+      213: 8101279970490906847
+    second: player2gun_30
+  - first:
+      213: 5291002903549309669
+    second: player2gun_31
+  - first:
+      213: -5887505859266543023
+    second: player2gun_32
+  - first:
+      213: 9100384160208591730
+    second: player2gun_33
+  - first:
+      213: -7003304636812332906
+    second: player2gun_34
+  - first:
+      213: -444755316883117274
+    second: player2gun_35
+  - first:
+      213: 2470696574965445176
+    second: player2gun_36
+  - first:
+      213: -5755599318671672409
+    second: player2gun_37
+  - first:
+      213: -3311799059649269853
+    second: player2gun_38
+  - first:
+      213: 227176753414538307
+    second: player2gun_39
+  - first:
+      213: 4180892817940306956
+    second: player2gun_40
+  - first:
+      213: -6717836573603901203
+    second: player2gun_41
+  - first:
+      213: 1928732651054926632
+    second: player2gun_42
+  - first:
+      213: -6397231288158833378
+    second: player2gun_43
+  - first:
+      213: 2216993164093557179
+    second: player2gun_44
+  - first:
+      213: -7660012009926719638
+    second: player2gun_45
+  - first:
+      213: -183245154014386091
+    second: player2gun_46
+  - first:
+      213: -3455139070988211842
+    second: player2gun_47
+  - first:
+      213: -9070220292959702371
+    second: player2gun_48
+  - first:
+      213: 7040450831026926190
+    second: player2gun_49
+  - first:
+      213: -618645023705656902
+    second: player2gun_50
+  - first:
+      213: -7203860133966037340
+    second: player2gun_51
+  - first:
+      213: -3899995358798937082
+    second: player2gun_52
+  - first:
+      213: 1739433799182174259
+    second: player2gun_53
+  - first:
+      213: -4798705354621742022
+    second: player2gun_54
+  - first:
+      213: -7918677846177504188
+    second: player2gun_55
+  - first:
+      213: 1468095318041668493
+    second: player2gun_56
+  - first:
+      213: -1189313591787102026
+    second: player2gun_57
+  - first:
+      213: 9028487002499895436
+    second: player2gun_58
+  - first:
+      213: 2597376549801145591
+    second: player2gun_59
+  - first:
+      213: -3392006403002207462
+    second: player2gun_60
+  - first:
+      213: 5802383027498567299
+    second: player2gun_61
+  - first:
+      213: 4728184518421207424
+    second: player2gun_62
+  - first:
+      213: -1980360461681180614
+    second: player2gun_63
+  - first:
+      213: 82787660596378471
+    second: player2gun_64
+  - first:
+      213: -6915848020850523867
+    second: player2gun_65
+  - first:
+      213: -2204560744047251712
+    second: player2gun_66
+  - first:
+      213: 6444563169754651968
+    second: player2gun_67
+  - first:
+      213: 5546632484178863851
+    second: player2gun_68
+  - first:
+      213: 49793527665665979
+    second: player2gun_69
+  - first:
+      213: -4724190878880669632
+    second: player2gun_70
+  - first:
+      213: -269379608880350993
+    second: player2gun_71
+  - first:
+      213: 4088383870962810983
+    second: player2gun_72
+  - first:
+      213: -6296616873895345735
+    second: player2gun_73
+  - first:
+      213: 2626292865961520687
+    second: player2gun_74
+  - first:
+      213: -2621352052222402549
+    second: player2gun_75
+  - first:
+      213: -7573479019588373895
+    second: player2gun_76
+  - first:
+      213: 1765216686400074623
+    second: player2gun_77
+  - first:
+      213: 8273638933359006973
+    second: player2gun_78
+  - first:
+      213: -7000674040935956750
+    second: player2gun_79
+  - first:
+      213: 1620618757519016227
+    second: player2gun_80
+  - first:
+      213: -7853221940026233771
+    second: player2gun_81
+  - first:
+      213: -2408013230009759011
+    second: player2gun_82
+  - first:
+      213: 9151763103196775324
+    second: player2gun_83
+  - first:
+      213: -6278234339835282399
+    second: player2gun_84
+  - first:
+      213: 4187372249002690013
+    second: player2gun_85
+  - first:
+      213: 8798838525534926996
+    second: player2gun_86
+  - first:
+      213: 1373164641189855810
+    second: player2gun_87
+  - first:
+      213: 4483738564417122500
+    second: player2gun_88
+  - first:
+      213: 8299828170399473293
+    second: player2gun_89
+  - first:
+      213: 2271488261559913045
+    second: player2gun_90
+  - first:
+      213: 69986610496873205
+    second: player2gun_91
+  - first:
+      213: 3279765502729687741
+    second: player2gun_92
+  - first:
+      213: 1755607864369231033
+    second: player2gun_93
+  - first:
+      213: -6162489428184761138
+    second: player2gun_94
+  - first:
+      213: -8733526091675065117
+    second: player2gun_95
+  - first:
+      213: -4499262833763524855
+    second: player2gun_96
+  - first:
+      213: -7584422969400873781
+    second: player2gun_97
+  - first:
+      213: 1753292267855362495
+    second: player2gun_98
+  - first:
+      213: 146431524427704864
+    second: player2gun_99
+  - first:
+      213: 1980333341827572775
+    second: player2gun_100
+  - first:
+      213: -8021861450742157208
+    second: player2gun_101
+  - first:
+      213: -5862014100361851396
+    second: player2gun_102
+  - first:
+      213: 776721340550090226
+    second: player2gun_103
+  - first:
+      213: -6437869152000461725
+    second: player2gun_104
+  - first:
+      213: -3678588687667521033
+    second: player2gun_105
+  - first:
+      213: -6023292475937581406
+    second: player2gun_106
+  - first:
+      213: -3813033380420935244
+    second: player2gun_107
+  - first:
+      213: -236879408084771078
+    second: player2gun_108
+  - first:
+      213: 5192236452263206250
+    second: player2gun_109
+  - first:
+      213: 7041120969711020964
+    second: player2gun_110
+  - first:
+      213: -1815492056262519266
+    second: player2gun_111
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -262,10 +598,10 @@ TextureImporter:
       name: player2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
-        width: 128
-        height: 128
+        x: 36
+        y: 796
+        width: 56
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +619,10 @@ TextureImporter:
       name: player2_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 768
-        width: 128
-        height: 128
+        x: 164
+        y: 796
+        width: 56
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +640,10 @@ TextureImporter:
       name: player2_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 768
-        width: 128
-        height: 128
+        x: 292
+        y: 798
+        width: 56
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,10 +661,10 @@ TextureImporter:
       name: player2_3
       rect:
         serializedVersion: 2
-        x: 384
-        y: 768
-        width: 128
-        height: 128
+        x: 420
+        y: 800
+        width: 56
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +682,10 @@ TextureImporter:
       name: player2_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 640
-        width: 128
-        height: 128
+        x: 36
+        y: 668
+        width: 56
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,10 +703,10 @@ TextureImporter:
       name: player2_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 640
-        width: 128
-        height: 128
+        x: 164
+        y: 666
+        width: 56
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,10 +724,10 @@ TextureImporter:
       name: player2_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 640
-        width: 128
-        height: 128
+        x: 292
+        y: 668
+        width: 56
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +745,10 @@ TextureImporter:
       name: player2_7
       rect:
         serializedVersion: 2
-        x: 384
-        y: 640
-        width: 128
-        height: 128
+        x: 420
+        y: 666
+        width: 56
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,10 +766,10 @@ TextureImporter:
       name: player2_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 128
-        height: 128
+        x: 36
+        y: 540
+        width: 66
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -451,10 +787,10 @@ TextureImporter:
       name: player2_9
       rect:
         serializedVersion: 2
-        x: 128
-        y: 512
-        width: 128
-        height: 128
+        x: 164
+        y: 540
+        width: 70
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,10 +808,10 @@ TextureImporter:
       name: player2_10
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 128
-        height: 128
+        x: 292
+        y: 540
+        width: 68
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,10 +829,10 @@ TextureImporter:
       name: player2_11
       rect:
         serializedVersion: 2
-        x: 384
-        y: 512
-        width: 128
-        height: 128
+        x: 420
+        y: 540
+        width: 56
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +850,10 @@ TextureImporter:
       name: player2_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
-        width: 128
-        height: 128
+        x: 26
+        y: 412
+        width: 66
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -535,10 +871,10 @@ TextureImporter:
       name: player2_13
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
-        width: 128
-        height: 128
+        x: 148
+        y: 412
+        width: 72
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +892,10 @@ TextureImporter:
       name: player2_14
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
-        width: 128
-        height: 128
+        x: 282
+        y: 412
+        width: 68
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,10 +913,10 @@ TextureImporter:
       name: player2_15
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 128
-        height: 128
+        x: 422
+        y: 412
+        width: 56
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -598,10 +934,10 @@ TextureImporter:
       name: player2_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 128
-        height: 128
+        x: 36
+        y: 284
+        width: 56
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -619,10 +955,10 @@ TextureImporter:
       name: player2_17
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
-        width: 128
-        height: 128
+        x: 164
+        y: 282
+        width: 56
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,10 +976,10 @@ TextureImporter:
       name: player2_18
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 128
-        height: 128
+        x: 292
+        y: 284
+        width: 56
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -661,10 +997,10 @@ TextureImporter:
       name: player2_19
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
-        width: 128
-        height: 128
+        x: 420
+        y: 282
+        width: 56
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -682,10 +1018,10 @@ TextureImporter:
       name: player2_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 128
-        height: 128
+        x: 36
+        y: 156
+        width: 66
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -703,10 +1039,10 @@ TextureImporter:
       name: player2_21
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 128
-        height: 128
+        x: 164
+        y: 156
+        width: 70
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -724,10 +1060,10 @@ TextureImporter:
       name: player2_22
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 128
-        height: 128
+        x: 292
+        y: 156
+        width: 66
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,10 +1081,10 @@ TextureImporter:
       name: player2_23
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
-        width: 128
-        height: 128
+        x: 420
+        y: 156
+        width: 62
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -766,10 +1102,10 @@ TextureImporter:
       name: player2_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
+        x: 28
+        y: 28
+        width: 64
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -787,10 +1123,10 @@ TextureImporter:
       name: player2_25
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
+        x: 152
+        y: 28
+        width: 68
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -808,10 +1144,10 @@ TextureImporter:
       name: player2_26
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 128
-        height: 128
+        x: 286
+        y: 28
+        width: 62
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -829,10 +1165,10 @@ TextureImporter:
       name: player2_27
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 128
-        height: 128
+        x: 414
+        y: 28
+        width: 62
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
