@@ -15,18 +15,13 @@ public class Product : MonoBehaviour
     {
         spr = GetComponent<SpriteRenderer>();
         spr.color = Substance.Color;
-        switch (Substance.AggrState)
+        spr.sprite = Substance.AggrState switch
         {
-            case "Liquid":
-                spr.sprite = liquidSpr;
-                break;
-            case "Solid":
-                spr.sprite = solidSpr;
-                break;
-            case "Gas":
-                spr.sprite = gasSpr;
-                break;
-        }
+            "Liquid" => liquidSpr,
+            "Solid" => solidSpr,
+            "Gas" => gasSpr,
+            _ => throw new System.ArgumentException("The chosen aggregate state doesn't have a sprite: " + Substance.AggrState)
+        };
 
         text = transform.GetChild(0).gameObject;
         text.GetComponent<TextMesh>().text = Substance.Formula;
@@ -40,6 +35,6 @@ public class Product : MonoBehaviour
 
     private void Update()
     {
-        
+        spr.color = Substance.Color;
     }
 }
