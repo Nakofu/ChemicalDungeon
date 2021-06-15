@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8862188326202627066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8264447290645314308}
+  - component: {fileID: 229824159405905989}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8264447290645314308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8862188326202627066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &229824159405905989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8862188326202627066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 859fb0f514a7b1d4c97248d6932d91cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - Name: DeathEnemy1
+    Clip: {fileID: 8300000, guid: 1e67c22fc1ffbc7498946c96ce624ec4, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: DeathEnemy2
+    Clip: {fileID: 8300000, guid: 299fe8d65c5ab3745a1e2d5135f577e6, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: DeathEnemy3
+    Clip: {fileID: 8300000, guid: e8bd743b8244ec54fb97056b6b185852, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: DeathHero1
+    Clip: {fileID: 8300000, guid: e9b143157b10f5c4b96681ffad427666, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: DeathHero2
+    Clip: {fileID: 8300000, guid: 15420ec0aee517a42b4cd1bdb4fea877, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: DeathHero2
+    Clip: {fileID: 8300000, guid: 15420ec0aee517a42b4cd1bdb4fea877, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: NewWriteInDirectory
+    Clip: {fileID: 8300000, guid: 8aa90c5969ffb294d85796776b5e7416, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: PickUp1
+    Clip: {fileID: 8300000, guid: fcf9675048c91964d83d743def54dcc1, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: PickUp2
+    Clip: {fileID: 8300000, guid: 691912eea6d4a5640aa5adb1d21121d2, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: PickUp3
+    Clip: {fileID: 8300000, guid: 8bdc95bbcc64f364f89d5e36dc24cb89, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: Shot1
+    Clip: {fileID: 8300000, guid: 952f0ee93acf9364097e95138b2a7ffc, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: Shot2
+    Clip: {fileID: 8300000, guid: 41c5029d312b1bb42abae00c07e53d90, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: Shot3
+    Clip: {fileID: 8300000, guid: ec5a6d36fa725fd41b02c420601032e0, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: Shot4
+    Clip: {fileID: 8300000, guid: 7b99aabb4e99cd042b865ba8d3a1a516, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: MainMenuTheme
+    Clip: {fileID: 8300000, guid: eeadfdd94f5026c46867df95aaf11508, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 1
+    Source: {fileID: 0}
+  - Name: Titles
+    Clip: {fileID: 8300000, guid: eeadfdd94f5026c46867df95aaf11508, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 1
+    Source: {fileID: 0}
+  - Name: Walk1
+    Clip: {fileID: 8300000, guid: 8512b297165d51f40bd4379cd1fbb3b3, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: Walk2
+    Clip: {fileID: 8300000, guid: 7675cd6b862716f47a7aff349e692b93, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: Walk3
+    Clip: {fileID: 8300000, guid: 1a90b6088149ed94a8c4a143a7810a5e, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: Walk4
+    Clip: {fileID: 8300000, guid: cad7fbc83275edc4bb3eaa8a68aca67e, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: LevelMenuTheme
+    Clip: {fileID: 8300000, guid: fbc93d477b1e4344da7bed81ebecd5cd, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: LevelMenuTheme
+    Clip: {fileID: 8300000, guid: fbc93d477b1e4344da7bed81ebecd5cd, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: GameTheme1
+    Clip: {fileID: 8300000, guid: 9a6bcce99daf71a43a526ff64b1939de, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: GameTheme2
+    Clip: {fileID: 8300000, guid: 51075ac3f9a6b114db464889cb8ce66f, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}
+  - Name: GameTheme3
+    Clip: {fileID: 8300000, guid: f19868f8ad3b1784b94e8a549441af9e, type: 3}
+    Volume: 1
+    Pitch: 1
+    ToLoop: 0
+    Source: {fileID: 0}

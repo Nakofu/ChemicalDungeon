@@ -13,9 +13,11 @@ public class Gun : MonoBehaviour
 
     public void Shoot()
     {
+        FindObjectOfType<AudioManager>().PlaySound("Shot4");
         var bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.GetComponent<Bullet>().Substance = Substance;
         bullet.GetComponent<Rigidbody2D>().AddForce(shootVector * bulletForce, ForceMode2D.Impulse);
+        //bullet.transform.localScale.x *= 
     }
 
     private void Start()

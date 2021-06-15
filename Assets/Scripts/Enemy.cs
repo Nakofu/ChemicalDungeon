@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -51,15 +52,9 @@ public class Enemy : MonoBehaviour
 
     private void Move()
     {
-        if (playerPos.position.x > transform.position.x)
-            movement.x++;
-        if (playerPos.position.x < transform.position.x)
-            movement.x--;
-        if (playerPos.position.y > transform.position.y)
-            movement.y++;
-        if (playerPos.position.y < transform.position.y)
-            movement.y--;
-
+        movement.x += Math.Sign(playerPos.position.x - transform.position.x);
+        movement.y += Math.Sign(playerPos.position.y - transform.position.y);
+        
         rb.MovePosition(rb.position + movement * moveSpeed * Time.deltaTime);
         movement = new Vector2(0, 0);
     }
