@@ -1,17 +1,26 @@
 using UnityEngine.Audio;
+using System.Linq;
 using UnityEngine;
 using System.Collections.Generic;
+using System;
 
 public class AudioManager : MonoBehaviour
 {
-    [SerializeField] private List<Sound> sounds;
+    public List<Sound> Sounds;
     public static AudioManager instance;
+
     public void PlaySound(string name)
     {
-        var sound = sounds.Find(sound => sound.Name == name);
+        var sound = Sounds.Find(sound => sound.Name == name);
         if (sound == null)
-            throw new System.ArgumentException("Couldn't find the sound: " + name);
+            throw new ArgumentException("Couldn't find the sound: " + name);
         sound.Source.Play();
+    }
+
+    public void PlayMusic(string name)
+    {
+        Sounds.Where(sound => sound.Source.isPlaying && sound.IsMusic).ToList().ForEach(sound => sound.Source.Stop());
+        PlaySound(name);
     }
 
     private void Awake()
@@ -27,7 +36,7 @@ public class AudioManager : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
 
-        foreach (var sound in sounds)
+        foreach (var sound in Sounds)
         {
             sound.Source = gameObject.AddComponent<AudioSource>();
             sound.Source.clip = sound.Clip;

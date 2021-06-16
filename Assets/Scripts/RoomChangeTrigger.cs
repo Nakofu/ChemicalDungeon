@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class RoomChangeTrigger : MonoBehaviour
     [SerializeField] private float moveDistanceX;
     [SerializeField] private float moveDistanceY;
     [SerializeField] private List<GameObject> monsters;
+    [SerializeField] private string hintText;
     private bool alreadyMoved;
 
     private void Start()
@@ -28,6 +30,8 @@ public class RoomChangeTrigger : MonoBehaviour
 
             foreach (var monster in monsters)
                 monster.GetComponent<Enemy>().SetSpeed();
+
+            GameObject.Find("HintCanvas").transform.GetChild(0).GetChild(0).GetComponent<Text>().text = hintText;
         }
     }
 }

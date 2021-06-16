@@ -13,7 +13,9 @@
           <e p="DataBase.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="Gun.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
           <e p="Inventory.cs" t="Include" />
+          <e p="KillScript.cs" t="Include" />
           <e p="LevelMenu.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
@@ -24,6 +26,7 @@
           <e p="SettingsMenu.cs" t="Include" />
           <e p="Sound.cs" t="Include" />
           <e p="Substance.cs" t="Include" />
+          <e p="WinScript.cs" t="Include" />
         </e>
       </e>
       <e p="ChemicalDungeon.sln" t="IncludeFlat" />

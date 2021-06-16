@@ -147,9 +147,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40391a54138cf9d40bf2966190a54e23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  moveSpeed: 6
   rb: {fileID: 0}
   animator: {fileID: 0}
+  health: 0
+  healthBar: {fileID: 0}
+  dmgTimer: 0
   MouseAngle: 0
 --- !u!95 &8152563899119066853
 Animator:
@@ -250,7 +253,7 @@ SpriteRenderer:
   m_Size: {x: 1.6875, y: 0.875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &8152563899221035326
@@ -355,7 +358,7 @@ MonoBehaviour:
   bulletForce: 20
   Substance:
     AggrState: Gas
-    Color: {r: 1, g: 0.9858491, b: 0.9858491, a: 1}
+    Color: {r: 1, g: 1, b: 1, a: 1}
     Formula: H2
 --- !u!1 &8152563899824098743
 GameObject:

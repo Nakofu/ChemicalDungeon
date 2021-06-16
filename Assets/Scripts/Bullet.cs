@@ -44,6 +44,7 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
+        Physics2D.IgnoreCollision(GameObject.Find("Player").GetComponent<BoxCollider2D>(), GetComponent<PolygonCollider2D>());
         spr = GetComponent<SpriteRenderer>();
         spr.color = Substance.Color;
         switch (Substance.AggrState)

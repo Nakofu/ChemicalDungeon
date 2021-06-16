@@ -599,7 +599,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Menu
+  m_Text: "\u041C\u0435\u043D\u044E"
 --- !u!222 &636066119
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -727,7 +727,7 @@ GameObject:
   - component: {fileID: 808981865}
   - component: {fileID: 808981864}
   m_Layer: 5
-  m_Name: Vodorod
+  m_Name: H2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1169,7 +1169,7 @@ GameObject:
   - component: {fileID: 1125796394}
   - component: {fileID: 1125796395}
   m_Layer: 0
-  m_Name: snimok
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1614,7 +1614,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Elements
+  m_Text: "\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B"
 --- !u!222 &1505571370
 CanvasRenderer:
   m_ObjectHideFlags: 0

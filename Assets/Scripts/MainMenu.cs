@@ -14,7 +14,10 @@ public class MainMenu : MonoBehaviour
         Debug.Log("EXIT!");
         Application.Quit();
     }
-    
-    
-    
+
+    private void Start()
+    {
+        FindObjectOfType<AudioManager>().PlayMusic("MainMenuTheme");
+    }
+
 }

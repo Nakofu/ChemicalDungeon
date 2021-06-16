@@ -17,7 +17,7 @@ public class Gun : MonoBehaviour
         var bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         bullet.GetComponent<Bullet>().Substance = Substance;
         bullet.GetComponent<Rigidbody2D>().AddForce(shootVector * bulletForce, ForceMode2D.Impulse);
-        //bullet.transform.localScale.x *= 
+        bullet.transform.localScale = new Vector3(System.Math.Sign(transform.parent.parent.localScale.x) * bullet.transform.localScale.x, bullet.transform.localScale.y, bullet.transform.localScale.z);
     }
 
     private void Start()
