@@ -10,6 +10,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] private Sprite liquidSpr;
     [SerializeField] private Sprite solidSpr;
     [SerializeField] private Sprite gasSpr;
+    [SerializeField] private GameObject text;
     [SerializeField] private ReactionHandler reactionHandler;
     public Substance Substance;
 
@@ -47,18 +48,16 @@ public class Bullet : MonoBehaviour
         Physics2D.IgnoreCollision(GameObject.Find("Player").GetComponent<BoxCollider2D>(), GetComponent<PolygonCollider2D>());
         spr = GetComponent<SpriteRenderer>();
         spr.color = Substance.Color;
-        switch (Substance.AggrState)
+        spr.sprite = Substance.AggrState switch
         {
-            case "Liquid":
-                spr.sprite = liquidSpr;
-                break;
-            case "Solid":
-                spr.sprite = solidSpr;
-                break;
-            case "Gas":
-                spr.sprite = gasSpr;
-                break;
-        }
+            "Liquid" => liquidSpr,
+            "Solid" => solidSpr,
+            "Gas" => gasSpr,
+            _ => throw new System.ArgumentException("The chosen aggregate state doesn't have a sprite: " + Substance.AggrState)
+        };
+
+        text = transform.GetChild(0).gameObject;
+        text.GetComponent<TextMesh>().text = Substance.Formula;
 
         reactionHandler = GameObject.Find("ReactionHandler").GetComponent<ReactionHandler>();
     }

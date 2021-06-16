@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float health;
     [SerializeField] private HealthBar healthBar;
     private float moveTimer;
-    public float dmgTimer;
+    private float dmgTimer;
     private Vector2 movement;
     private Vector2 mousePos;
     public float MouseAngle;
@@ -37,9 +37,10 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (health < 0)
+        if (health <= 0)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+            //Destroy(gameObject);
             FindObjectOfType<AudioManager>().PlaySound("DeathHero" + new System.Random().Next(1, 3));
             return;
         }

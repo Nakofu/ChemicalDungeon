@@ -186,7 +186,7 @@ MonoBehaviour:
     Source: {fileID: 0}
   - Name: Walk5
     Clip: {fileID: 8300000, guid: 7187dc81f98b8be4eb97bfc4dd9a5abf, type: 3}
-    Volume: 0.2
+    Volume: 0.3
     Pitch: 1
     ToLoop: 0
     IsMusic: 0

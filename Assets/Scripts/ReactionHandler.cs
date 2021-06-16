@@ -40,6 +40,22 @@ public class ReactionHandler : MonoBehaviour
                 new Substance("Pb", new Color(0.45f, 0.89f, 0.96f, 1.0f), "Solid"),
                 new Substance("H20", Color.white, "Liquid")
             },
+            ["Cl2".GetHashCode() + "S".GetHashCode()] = new List<Substance>
+            {
+                new Substance("SCl4", new Color(0.88f, 0.91f, 0.46f), "Solid"),
+            },
+            ["Cl2".GetHashCode() + "C".GetHashCode()] = new List<Substance>
+            {
+                new Substance("CCl4", Color.white, "Liquid"),
+            },
+            ["Cl2".GetHashCode() + "Cu".GetHashCode()] = new List<Substance>
+            {
+                new Substance("CuCl2", new Color(0.23f, 0.94f, 0.57f), "Solid"),
+            },
+            ["Cl2".GetHashCode() + "Fe".GetHashCode()] = new List<Substance>
+            {
+                new Substance("FeCl3", Color.black, "Solid"),
+            },
         };
     }
 

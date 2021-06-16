@@ -7,8 +7,8 @@ using UnityEngine;
 public class RoomChangeTrigger : MonoBehaviour
 {
     [SerializeField] private Camera cam;
-    [SerializeField] private float moveDistanceX;
-    [SerializeField] private float moveDistanceY;
+    [SerializeField] private Vector3 cameraMovement;
+    [SerializeField] private Vector3 playerMovement;
     [SerializeField] private List<GameObject> monsters;
     [SerializeField] private string hintText;
     private bool alreadyMoved;
@@ -23,8 +23,8 @@ public class RoomChangeTrigger : MonoBehaviour
     {
         if (!alreadyMoved && collision.gameObject.name == "Player")
         {
-            cam.transform.position += new Vector3(moveDistanceX, moveDistanceY, 0);
-            GameObject.Find("Player").transform.position += new Vector3(4, 0, 0);
+            cam.transform.position += cameraMovement;
+            GameObject.Find("Player").transform.position += playerMovement;
 
             alreadyMoved = true;
 
