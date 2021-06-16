@@ -7,21 +7,26 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AudioManager.cs" t="Include" />
           <e p="BoardManager.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
           <e p="DataBase.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="Gun.cs" t="Include" />
+          <e p="HealthBar.cs" t="Include" />
           <e p="Inventory.cs" t="Include" />
+          <e p="KillScript.cs" t="Include" />
           <e p="LevelMenu.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
-          <e p="PlayerControl.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="ReactionHandler.cs" t="Include" />
           <e p="RoomChangeTrigger.cs" t="Include" />
           <e p="SettingsMenu.cs" t="Include" />
+          <e p="Sound.cs" t="Include" />
           <e p="Substance.cs" t="Include" />
+          <e p="WinScript.cs" t="Include" />
         </e>
       </e>
       <e p="ChemicalDungeon.sln" t="IncludeFlat" />

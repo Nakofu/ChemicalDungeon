@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
-    [SerializeField] private float health;
+    public float health;
     [SerializeField] private HealthBar healthBar;
     private float moveTimer;
     private float dmgTimer;
